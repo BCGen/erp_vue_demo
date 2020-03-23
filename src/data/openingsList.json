@@ -1,0 +1,30 @@
+{
+  "status": 200,
+  "data": {
+    "rtnCode": "0000",
+    "rtnMsg": "",
+    "content": [
+      {
+        "id": 9,
+        "type": "技術開發",
+        "place": "台北",
+        "title": "技術經理",
+        "status": "開啟"
+      },
+      {
+        "id": 11,
+        "type": "行銷業務",
+        "place": "海外",
+        "title": "產品行銷專員",
+        "status": "開啟"
+      },
+      {
+        "id": 25,
+        "type": "AI人才",
+        "place": "高雄",
+        "title": "AI工程師",
+        "status": "關閉"
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "Openings": [
+    {
+      "id": 9,
+      "type": "技術開發",
+      "place": "台北",
+      "title": "技術經理",
+      "status": "開啟"
+    },
+    {
+      "id": 11,
+      "type": "行銷業務",
+      "place": "海外",
+      "title": "產品行銷專員",
+      "status": "開啟"
+    },
+    {
+      "id": 25,
+      "type": "AI人才",
+      "place": "高雄",
+      "title": "AI工程師",
+      "status": "關閉"
+    }
+  ],
+  "Banners": [
+    {
+      "id": 1,
+      "urlPc": "{URL}/File/banner/01.jpg",
+      "urlPhone": "{URL}/File/banner/01_m.jpg",
+      "title": "標題一",
+      "text": "內文一",
+      "order": 1
+    },
+    {
+      "id": 2,
+      "urlPc": "{URL}/File/banner/01.jpg",
+      "urlPhone": "{URL}/File/banner/01_m.jpg",
+      "title": "標題二",
+      "text": "內文二",
+      "order": 2
+    },
+    {
+      "id": 3,
+      "urlPc": "{URL}/File/banner/01.jpg",
+      "urlPhone": "{URL}/File/banner/01_m.jpg",
+      "title": "標題三",
+      "text": "內文三",
+      "order": 3
+    }
+  ],
+  "QRCode": {
+    "id": 1,
+    "url": "https://www.thinkpower.com.tw/recruit",
+    "width": "100",
+    "status": 1
+  },
+  "Resumes": [
+    {
+      "id": 1,
+      "date": "2020/3/5",
+      "name": "李紫宸",
+      "age": 22,
+      "edu": "學士",
+      "school": "成功大學",
+      "dep": "電機系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 2,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    }
+  ],
+  "CodeDatas": [
+    {
+      "parentValue": "職缺類型",
+      "id": 13,
+      "value": "技術開發",
+      "status": "啟用"
+    },
+    {
+      "parentValue": "職缺類型",
+      "id": 14,
+      "value": "營運管理",
+      "status": "停用"
+    },
+    {
+      "parentValue": "職缺類型",
+      "id": 15,
+      "value": "專案管理",
+      "status": "啟用"
+    }
+  ],
+  "Codes": [
+    {
+      "id": 13,
+      "value": "技術開發",
+      "order": 1
+    },
+    {
+      "id": 14,
+      "value": "營運管理",
+      "order": 2
+    },
+    {
+      "id": 15,
+      "value": "專案管理",
+      "order": 3
+    }
+  ]
+}

@@ -1,0 +1,784 @@
+{
+  "auth": [
+    {
+      "pageid": "OPENING",
+      "id": "OPENING_search",
+      "value": true
+    },
+    {
+      "pageid": "OPENING",
+      "id": "OPENING_insert",
+      "value": true
+    },
+    {
+      "pageid": "OPENING",
+      "id": "OPENING_update",
+      "value": true
+    },
+    {
+      "pageid": "OPENING",
+      "id": "OPENING_delete",
+      "value": true
+    },
+    {
+      "pageid": "RESUME",
+      "id": "RESUME_search",
+      "value": true
+    },
+    {
+      "pageid": "RESUME",
+      "id": "RESUME_insert",
+      "value": true
+    },
+    {
+      "pageid": "RESUME",
+      "id": "RESUME_update",
+      "value": true
+    },
+    {
+      "pageid": "RESUME",
+      "id": "RESUME_delete",
+      "value": true
+    },
+    {
+      "pageid": "RESUME",
+      "id": "RESUME_pdf",
+      "value": true
+    },
+    {
+      "pageid": "RESUME",
+      "id": "RESUME_excel",
+      "value": true
+    }
+  ],
+  "Openings": [
+    {
+      "id": 9,
+      "type": "技術開發",
+      "place": "台北",
+      "title": "技術經理",
+      "status": "開啟",
+      "lang": [25, 22]
+    },
+    {
+      "id": 11,
+      "type": "行銷業務",
+      "place": "海外",
+      "title": "產品行銷專員",
+      "status": "開啟"
+    },
+    {
+      "id": 25,
+      "type": "AI人才",
+      "place": "高雄",
+      "title": "AI工程師",
+      "status": "關閉"
+    },
+    {
+      "typeid": 14,
+      "wpid": 2,
+      "status": 0,
+      "url": "sdfsdafgfhjgfhj",
+      "title": "",
+      "content": "",
+      "nature": "",
+      "num": "",
+      "wpDetail": "",
+      "exp": "sadfgjghj",
+      "edu": null,
+      "dep": "",
+      "lang": [22, 25],
+      "skill": [],
+      "other": "",
+      "id": 26
+    },
+    {
+      "typeid": 13,
+      "wpid": 3,
+      "status": 1,
+      "url": "2134123412",
+      "title": "41234",
+      "content": "412423",
+      "nature": "234234",
+      "num": "213421",
+      "wpDetail": "4234",
+      "exp": "123423",
+      "edu": 5,
+      "dep": "2134",
+      "lang": [25, 22],
+      "skill": [28],
+      "other": "dfdgdgf",
+      "id": 27
+    },
+    {
+      "typeid": null,
+      "wpid": null,
+      "status": 1,
+      "url": "",
+      "title": "",
+      "content": "",
+      "nature": "",
+      "num": "",
+      "wpDetail": "",
+      "exp": "",
+      "edu": null,
+      "dep": "",
+      "lang": [],
+      "skill": [],
+      "other": "",
+      "id": 28
+    },
+    {
+      "typeid": null,
+      "wpid": null,
+      "status": 1,
+      "url": "",
+      "title": "",
+      "content": "",
+      "nature": "",
+      "num": "",
+      "wpDetail": "",
+      "exp": "",
+      "edu": null,
+      "dep": "",
+      "lang": [],
+      "skill": [],
+      "other": "",
+      "id": 29
+    },
+    {
+      "typeid": null,
+      "wpid": null,
+      "status": 1,
+      "url": "",
+      "title": "",
+      "content": "",
+      "nature": "",
+      "num": "",
+      "wpDetail": "",
+      "exp": "",
+      "edu": null,
+      "dep": "",
+      "lang": [],
+      "skill": [],
+      "other": "",
+      "id": 30
+    },
+    {
+      "typeid": null,
+      "wpid": null,
+      "status": 1,
+      "url": "",
+      "title": "",
+      "content": "",
+      "nature": "",
+      "num": "",
+      "wpDetail": "",
+      "exp": "",
+      "edu": null,
+      "dep": "",
+      "lang": [],
+      "skill": [],
+      "other": "",
+      "id": 31
+    },
+    {
+      "typeid": null,
+      "wpid": null,
+      "status": 1,
+      "url": "",
+      "title": "",
+      "content": "",
+      "nature": "",
+      "num": "",
+      "wpDetail": "",
+      "exp": "",
+      "edu": null,
+      "dep": "",
+      "lang": [],
+      "skill": [],
+      "other": "",
+      "id": 32
+    },
+    {
+      "typeid": null,
+      "wpid": null,
+      "status": 1,
+      "url": "",
+      "title": "",
+      "content": "",
+      "nature": "",
+      "num": "",
+      "wpDetail": "",
+      "exp": "",
+      "edu": null,
+      "dep": "",
+      "lang": [],
+      "skill": [],
+      "other": "",
+      "id": 33
+    },
+    {
+      "typeid": null,
+      "wpid": null,
+      "status": 1,
+      "url": "",
+      "title": "",
+      "content": "",
+      "nature": "",
+      "num": "",
+      "wpDetail": "",
+      "exp": "",
+      "edu": null,
+      "dep": "",
+      "lang": [],
+      "skill": [],
+      "other": "",
+      "id": 34
+    },
+    {
+      "typeid": null,
+      "wpid": null,
+      "status": 1,
+      "url": "",
+      "title": "",
+      "content": "",
+      "nature": "",
+      "num": "",
+      "wpDetail": "",
+      "exp": "",
+      "edu": null,
+      "dep": "",
+      "lang": [],
+      "skill": [],
+      "other": "",
+      "id": 35
+    },
+    {
+      "typeid": null,
+      "wpid": null,
+      "status": 1,
+      "url": "",
+      "title": "sadfs",
+      "content": "sadf",
+      "nature": "sadfsdf",
+      "num": "fdsdf",
+      "wpDetail": "sadfsdf",
+      "exp": "sdf",
+      "edu": null,
+      "dep": "",
+      "lang": [21],
+      "skill": [],
+      "other": "",
+      "id": 36
+    },
+    {
+      "typeid": null,
+      "wpid": null,
+      "status": 1,
+      "url": "",
+      "title": "",
+      "content": "",
+      "nature": "",
+      "num": "",
+      "wpDetail": "",
+      "exp": "",
+      "edu": null,
+      "dep": "",
+      "lang": [],
+      "skill": [],
+      "other": "",
+      "id": 37
+    },
+    {
+      "typeid": null,
+      "wpid": null,
+      "status": 1,
+      "url": "",
+      "title": "",
+      "content": "",
+      "nature": "",
+      "num": "",
+      "wpDetail": "",
+      "exp": "",
+      "edu": null,
+      "dep": "",
+      "lang": [],
+      "skill": [],
+      "other": "",
+      "id": 38
+    },
+    {
+      "typeid": null,
+      "wpid": null,
+      "status": 1,
+      "url": "",
+      "title": "",
+      "content": "",
+      "nature": "",
+      "num": "",
+      "wpDetail": "",
+      "exp": "",
+      "edu": null,
+      "dep": "",
+      "lang": [],
+      "skill": [],
+      "other": "",
+      "id": 39
+    },
+    {
+      "typeid": null,
+      "wpid": null,
+      "status": 1,
+      "url": "",
+      "title": "",
+      "content": "",
+      "nature": "",
+      "num": "",
+      "wpDetail": "",
+      "exp": "",
+      "edu": null,
+      "dep": "",
+      "lang": [],
+      "skill": [],
+      "other": "",
+      "id": 40
+    },
+    {
+      "typeid": null,
+      "wpid": null,
+      "status": 1,
+      "url": "",
+      "title": "",
+      "content": "",
+      "nature": "",
+      "num": "",
+      "wpDetail": "",
+      "exp": "",
+      "edu": null,
+      "dep": "",
+      "lang": [],
+      "skill": [],
+      "other": "",
+      "id": 41
+    }
+  ],
+  "Banners": [
+    {
+      "id": 1,
+      "urlPc": "{URL}/File/banner/01.jpg",
+      "urlPhone": "{URL}/File/banner/01_m.jpg",
+      "title": "標題一",
+      "text": "內文一",
+      "order": 1
+    },
+    {
+      "id": 2,
+      "urlPc": "{URL}/File/banner/01.jpg",
+      "urlPhone": "{URL}/File/banner/01_m.jpg",
+      "title": "標題二",
+      "text": "內文二",
+      "order": 2
+    },
+    {
+      "id": 3,
+      "urlPc": "{URL}/File/banner/01.jpg",
+      "urlPhone": "{URL}/File/banner/01_m.jpg",
+      "title": "標題三",
+      "text": "內文三",
+      "order": 3
+    }
+  ],
+  "QRCode": [
+    {
+      "id": 1,
+      "url": "",
+      "width": 100,
+      "status": "1"
+    }
+  ],
+  "Resumes": [
+    {
+      "id": 1,
+      "date": "2018/3/5",
+      "name": "李紫宸",
+      "age": 20,
+      "edu": "學士",
+      "school": "成功大學",
+      "dep": "電機系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 2,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 3,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 4,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 5,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 6,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 7,
+      "date": "2016/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 8,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 9,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 10,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 11,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 12,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 13,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 14,
+      "date": "2022/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 15,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 16,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 17,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 18,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 19,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 20,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 21,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 22,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 23,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    },
+    {
+      "id": 24,
+      "date": "2020/3/6",
+      "name": "王曉天",
+      "age": 23,
+      "edu": "學士",
+      "school": "中山大學",
+      "dep": "資訊工程系",
+      "info": "校園徵才"
+    }
+  ],
+  "CodeDatas": [
+    {
+      "parentValue": "職缺類型",
+      "id": 13,
+      "value": "技術開發",
+      "status": "啟用"
+    },
+    {
+      "parentValue": "職缺類型",
+      "id": 14,
+      "value": "營運管理",
+      "status": "停用"
+    },
+    {
+      "parentValue": "職缺類型",
+      "id": 15,
+      "value": "專案管理",
+      "status": "啟用"
+    }
+  ],
+  "Codes": [
+    {
+      "id": 1,
+      "value": "台北 Taipei",
+      "order": 1,
+      "type": "WORKPLACE"
+    },
+    {
+      "id": 2,
+      "value": "新竹 Hsinchu",
+      "order": 2,
+      "type": "WORKPLACE"
+    },
+    {
+      "id": 3,
+      "value": "台中 Taichung",
+      "order": 3,
+      "type": "WORKPLACE"
+    },
+    {
+      "id": 4,
+      "value": "高雄 Kaohsiung",
+      "order": 4,
+      "type": "WORKPLACE"
+    },
+    {
+      "id": 5,
+      "value": "高中",
+      "order": 1,
+      "type": "EDU"
+    },
+    {
+      "id": 6,
+      "value": "大學",
+      "order": 2,
+      "type": "EDU"
+    },
+    {
+      "id": 7,
+      "value": "碩士",
+      "order": 3,
+      "type": "EDU"
+    },
+    {
+      "id": 8,
+      "value": "博士",
+      "order": 4,
+      "type": "EDU"
+    },
+    {
+      "id": 13,
+      "value": "技術開發",
+      "order": 1,
+      "type": "OPENING"
+    },
+    {
+      "id": 14,
+      "value": "營運管理",
+      "order": 2,
+      "type": "OPENING"
+    },
+    {
+      "id": 15,
+      "value": "專案管理",
+      "order": 3,
+      "type": "OPENING"
+    },
+    {
+      "id": 20,
+      "value": "英文精通",
+      "order": 1,
+      "type": "LANG"
+    },
+    {
+      "id": 21,
+      "value": "英文中等",
+      "order": 2,
+      "type": "LANG"
+    },
+    {
+      "id": 22,
+      "value": "英文略懂",
+      "order": 3,
+      "type": "LANG"
+    },
+    {
+      "id": 23,
+      "value": "日文精通",
+      "order": 4,
+      "type": "LANG"
+    },
+    {
+      "id": 24,
+      "value": "日文中等",
+      "order": 5,
+      "type": "LANG"
+    },
+    {
+      "id": 25,
+      "value": "日文略懂",
+      "order": 6,
+      "type": "LANG"
+    },
+    {
+      "id": 26,
+      "value": "Angular",
+      "order": 1,
+      "type": "SKILL"
+    },
+    {
+      "id": 27,
+      "value": "Vue",
+      "order": 2,
+      "type": "SKILL"
+    },
+    {
+      "id": 28,
+      "value": "React",
+      "order": 3,
+      "type": "SKILL"
+    }
+  ]
+}
