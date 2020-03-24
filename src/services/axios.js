@@ -15,13 +15,13 @@ $axios.interceptors.response.use(
     const returnLoginCodes = ['9996', '9999']
 
     if (status === 403) {
-      window.location = '/'
+      // window.location = '/'
     } else if (
       status === 200 &&
       data.rtnCode &&
       returnLoginCodes.includes(data.rtnCode.toString())
     ) {
-      window.location = '/erp/login'
+      // window.location = '/erp/login'
     }
 
     return response

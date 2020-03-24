@@ -11,13 +11,6 @@ const routes = [
     component: Opening
   },
   {
-    // 選單維護
-    path: '/recruit/code',
-    name: 'code',
-    component: () =>
-      import(/* webpackChunkName: "code" */ '../views/code/index.vue')
-  },
-  {
     // 職缺維護 列表
     path: '/recruit/opening',
     name: 'opening',
@@ -61,63 +54,10 @@ const routes = [
       import(/* webpackChunkName: "bannerEdit" */ '../views/banner/Edit.vue')
   },
   {
-    path: '/recruit/qrCode',
-    name: 'qrCode',
-    component: () =>
-      import(/* webpackChunkName: "QRCode" */ '../views/qrCode/index.vue')
-  },
-  {
     path: '/recruit/resume',
     name: 'resume',
     component: () =>
       import(/* webpackChunkName: "resume" */ '../views/resume/index.vue')
-  },
-  {
-    path: '/recruit/privacy',
-    name: 'privacy',
-    component: () =>
-      import(/* webpackChunkName: "privacy" */ '../views/privacy/index.vue')
-  },
-  {
-    path: '/recruit/privacy/create',
-    name: 'privacyCreate',
-    component: () =>
-      import(
-        /* webpackChunkName: "privacyCreate" */ '../views/privacy/Create.vue'
-      )
-  },
-  {
-    path: '/recruit/privacy/edit/:id',
-    name: 'privacyEdit',
-    component: () =>
-      import(/* webpackChunkName: "privacyEdit" */ '../views/privacy/Edit.vue')
-  },
-  /*******
-   * 字庫
-   *******/
-  {
-    path: '/recruit/dictionary',
-    name: 'dictionary',
-    component: () =>
-      import(
-        /* webpackChunkName: "dictionary" */ '../views/dictionary/index.vue'
-      )
-  },
-  {
-    path: '/recruit/dictionary/create',
-    name: 'dictionaryCreate',
-    component: () =>
-      import(
-        /* webpackChunkName: "dictionaryCreate" */ '../views/dictionary/Create.vue'
-      )
-  },
-  {
-    path: '/recruit/dictionary/edit/:id',
-    name: 'dictionaryEdit',
-    component: () =>
-      import(
-        /* webpackChunkName: "dictionaryEdit" */ '../views/dictionary/Edit.vue'
-      )
   }
 ]
 

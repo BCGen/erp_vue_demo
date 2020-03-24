@@ -93,10 +93,7 @@ export default {
   },
   mounted() {
     setTimeout(() => {
-      $('#RECRUIT')
-        .toggleClass('open')
-        .find('.sub')
-        .slideToggle()
+      $('#RECRUIT').toggleClass('open').find('.sub').slideToggle()
     }, 1000)
   },
   methods: {
@@ -106,16 +103,9 @@ export default {
     },
     /** 選單點擊時，開啟或關閉子選單 */
     onSubMenuClick({ currentTarget }) {
-      $(currentTarget)
-        .toggleClass('open')
-        .find('.sub')
-        .slideToggle()
+      $(currentTarget).toggleClass('open').find('.sub').slideToggle()
 
-      $(currentTarget)
-        .siblings()
-        .removeClass('open')
-        .find('.sub')
-        .slideUp()
+      $(currentTarget).siblings().removeClass('open').find('.sub').slideUp()
     },
     getMenuLogo(name) {
       try {
