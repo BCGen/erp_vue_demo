@@ -8,12 +8,12 @@
 <script>
 export default {
   name: 'ValidateInput',
-  props:{
-    label:{
-   type:String,
-   default:''
+  props: {
+    label: {
+      type: String,
+      default: ''
     }
-    },
+  },
   data() {
     return {
       value: ''

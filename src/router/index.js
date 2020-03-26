@@ -2,7 +2,6 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Opening from '../views/opening/index.vue'
 
-
 Vue.use(VueRouter)
 
 const routes = [

@@ -25,10 +25,10 @@
         </form-group>
 
         <form-group class="col-sm-12 col-lg-6 col-xl-6" label="請購人員" rules="required">
-          <input class="form-control" v-model="formData.applyEmpId" />
+          <input v-model="formData.applyEmpId" class="form-control" />
         </form-group>
         <form-group class="col-sm-12 col-lg-6 col-xl-6" label="請購單號" rules="required">
-          <input class="form-control" v-model="formData.applyId" />
+          <input v-model="formData.applyId" class="form-control" />
         </form-group>
 
         <form-group v-if="statusOptions.isShow" class="col-sm-12 col-lg-6 col-xl-6" label="案件狀態">
@@ -47,11 +47,11 @@
         >
           <input-checkbox
             v-for="item in  purchasingOrderOptions.options"
-            :disabled="purchasingOrderOptions.isDisabled"
             :key="item.value"
+            v-model="formData.prsTypeList"
+            :disabled="purchasingOrderOptions.isDisabled"
             :label="item.label"
             :value="item.value"
-            v-model="formData.prsTypeList"
           ></input-checkbox>
         </form-group>
         <form-group
@@ -61,11 +61,11 @@
         >
           <input-checkbox
             v-for="item in purchasingRequisitionOptions.options"
-            :disabled="purchasingRequisitionOptions.isDisabled"
             :key="item.value"
+            v-model="formData.applyTypeList"
+            :disabled="purchasingRequisitionOptions.isDisabled"
             :label="item.label"
             :value="item.value"
-            v-model="formData.applyTypeList"
           ></input-checkbox>
         </form-group>
         <div class="button_row" style="text-align:center">
