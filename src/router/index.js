@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Opening from '../views/opening/index.vue'
 
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -58,6 +59,12 @@ const routes = [
     name: 'resume',
     component: () =>
       import(/* webpackChunkName: "resume" */ '../views/resume/index.vue')
+  },
+  {
+    path: '/people',
+    name: 'people',
+    component: () =>
+      import(/* webpackChunkName: "resume" */ '../views/people/index.vue')
   }
 ]
 

@@ -7,10 +7,10 @@ export const auth = {
   computed: {
     /** 可執行動作 */
     actions() {
-      return this.authList
-        .filter(auth => auth.value)
-        .map(auth => auth.id.split('_').pop())
-      // return ['search', 'insert', 'update', 'delete', 'excel', 'pdf', 'save']
+      // return this.authList
+      //   .filter(auth => auth.value)
+      //   .map(auth => auth.id.split('_').pop())
+      return ['search', 'insert', 'update', 'delete', 'excel', 'pdf', 'save']
     }
   },
   methods: {

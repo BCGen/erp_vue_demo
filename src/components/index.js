@@ -17,3 +17,4 @@ export { default as InputSelect } from '@/components/InputSelect'
 export { default as InputSwitch } from '@/components/InputSwitch'
 export { default as ModalDelete } from '@/components/ModalDelete'
 export { default as PageHeader } from '@/components/PageHeader'
+

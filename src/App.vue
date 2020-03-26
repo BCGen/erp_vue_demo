@@ -43,16 +43,16 @@ export default {
       user: {}
     }
   },
-  async mounted() {
-    const loader = this.$loading.show()
-    try {
-      await Promise.all([this.getUser(), this.getMenu()])
-    } catch (e) {
-      this.notifyGetFail()
-    } finally {
-      loader.hide()
-    }
-  },
+  // async mounted() {
+  //   const loader = this.$loading.show()
+  //   try {
+  //     await Promise.all([this.getUser(), this.getMenu()])
+  //   } catch (e) {
+  //     this.notifyGetFail()
+  //   } finally {
+  //     loader.hide()
+  //   }
+  // },
   methods: {
     async getMenu() {
       const menu = this.$api.check(await this.$api.getMenu())
